@@ -1,0 +1,23 @@
+class Solution {
+    private int order(int n) {
+        int count = 0;
+        while(n>0){
+            count++;
+            n = n/10;
+        }
+        return count;
+    }
+    public int addDigits(int num) {
+        int d;
+        while(order(num) > 1) {
+            int sum = 0;
+            while(num>0){
+                d = num%10;
+                sum += d;
+                num = num/10;
+            }
+            num = sum;
+        }
+        return num;
+    }
+}
