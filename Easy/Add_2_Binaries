@@ -12,7 +12,7 @@ public class Solution {
             carry = sum / 2; //if sum==2 we have a carry, else no carry 1/2 rounds down to 0 in integer arithematic
         }
         if (carry != 0) sb.append(carry); //leftover carry, add it
-        return sb.reverse().toString();
+        return sb.reverse().toString(); 
     }
 }
 
