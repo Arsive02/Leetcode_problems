@@ -1,3 +1,5 @@
+// JAVA SOLUTION
+
 public class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder(); //Google immutability or string vs stringbuilder if you don't know why we use this instead of regular string
@@ -13,3 +15,9 @@ public class Solution {
         return sb.reverse().toString();
     }
 }
+
+// PYTHON SOLUTION - Not recommended
+
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        return (bin(int(a,2)+int(b,2))[2:])
