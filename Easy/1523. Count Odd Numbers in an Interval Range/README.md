@@ -1,3 +1,4 @@
+<pre>
 1523. Count Odd Numbers in an Interval Range
 Easy
 
@@ -22,3 +23,4 @@ Explanation: The odd numbers between 8 and 10 are [9].
 Constraints:
 
     0 <= low <= high <= 10^9
+</pre>
