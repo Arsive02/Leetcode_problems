@@ -1,3 +1,7 @@
+<pre>
+191. Number of 1 Bits
+Easy
+
 Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
 
 Note:
@@ -30,3 +34,7 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 Constraints:
 
     The input must be a binary string of length 32.
+
+ 
+Follow up: If this function is called many times, how would you optimize it?
+</pre>
